@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between; /*MAKES THEM SEPERATE AS FAR AS POSSIBLE FROM EACH OTHER IN LINE*/
+  align-items: center; /*ALIGNS ELEMENTS IN THE LINE THER ARE IN;*/
+  padding: 0 20px;
+}
+.nav-image-wrapper{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.nav-image-wrapper img{
+  width:  auto; /*auto on an image MAINTAINS its width to what the original was. trys to keep it a square. */
+  height: 30px;
+}
+
+.nav-image-separator{
+  height: 30px;
+  width: 1px;
+  margin: 0 20px;
+  display: inline-block;
+  background-color: lightgray;
+}
+
+.nav-follow{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.nav-follow:hover{
+  color: black;
+}
+.nav-auth{
+  color: #34a474;
+  margin-left: 10px;
+  text-decoration: none;
+}
